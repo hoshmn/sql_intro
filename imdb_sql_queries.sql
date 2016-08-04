@@ -66,7 +66,7 @@ GROUP BY a.id;
 -- that returns the actors' names, the movie name, and the number of 
 -- distinct roles that they played in that movie (which will be ≥ 5).
 
---seems to count # total movies
+--seems to count # total movies, not roles in movie
 
 SELECT a.first_name "First", a.last_name "Last", m.name "Film", Count(a.id) "Num Roles"
 FROM actors a

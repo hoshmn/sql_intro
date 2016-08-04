@@ -70,3 +70,4 @@ CREATE TABLE "directors_genres" (
   "genre" varchar(100) DEFAULT NULL,
   "prob" float DEFAULT NULL
 );
+ 
